@@ -1,0 +1,436 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #484A47;
+}
+
+.container,
+.about,
+.projects,
+.project_content,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 2vw;
+  text-align: center;
+  font-weight: lighter;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+/*Landing Page*/
+
+.hi {
+  font-size: 1.25vw;
+  margin-bottom: 0;
+  margin-right: 35%;
+  font-weight: lighter;
+}
+
+.name {
+  font-size: 8vw;
+  margin: 0 0 2vw 0;
+}
+
+.information {
+  font-size: 2vw;
+  margin-top: 0;
+  font-weight: lighter;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0 10px 0;
+  margin: 0 25% 0 25%;
+}
+
+/*Triangles*/
+
+.triangle_up {
+  width: 0;
+  height: 0;
+  border-left: 10vw solid transparent;
+  border-right: 10vw solid transparent;
+  border-bottom: 15vw solid #A37774;
+}
+
+.triangle_down {
+  width: 0;
+  height: 0;
+  border-left: 10vw solid transparent;
+  border-right: 10vw solid transparent;
+  border-top: 15vw solid #5C6D70;
+}
+
+.triangle_up,
+.triangle_down {
+  margin-left: -8vw;
+}
+
+.triangle_up:last-child {
+  margin-right: -100px;
+}
+
+.triangles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6vw;
+}
+
+.triangle_up a {
+  text-align: center;
+  position: relative;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #484A47;
+}
+
+.triangle_down a {
+  text-align: center;
+  position: relative;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #E88873;
+}
+
+.tri_about {
+  top: 10vw;
+  right: 2.3vw;
+}
+
+.tri_about:hover {
+  font-size: 2vw;
+  top: 9.7vw;
+  right: 3vw;
+}
+
+.tri_technical {
+  bottom: 11.5vw;
+  right: 3.5vw;
+}
+
+.tri_technical:hover {
+  font-size: 2vw;
+  bottom: 11.8vw;
+  right: 4.5vw;
+}
+
+.tri_resume {
+  top: 10vw;
+  right: 3vw;
+}
+
+.tri_resume:hover {
+  font-size: 2vw;
+  top: 9.7vw;
+  right: 3.7vw;
+}
+
+.tri_projects {
+  bottom: 11.5vw;
+  right: 3vw;
+}
+
+.tri_projects:hover {
+  font-size: 2vw;
+  bottom: 11.8vw;
+  right: 3.8vw;
+}
+
+.tri_contact {
+  top: 10vw;
+  right: 3vw;
+}
+
+.tri_contact:hover {
+  font-size: 2vw;
+  top: 9.7vw;
+  right: 3.7vw;
+}
+
+/*About Me*/
+
+.about {
+  margin-top: 9vw;
+}
+
+.download_res {
+  margin-top: 0;
+}
+
+.download_res a {
+  text-decoration: none;
+  color: #A37774;
+}
+
+.location {
+  font-size: 1.5vw;
+  color: #5C6D70;
+  margin-bottom: 10px;
+}
+
+.picture {
+  margin: 5px 0 10px 0;
+  height:200px;
+  border-radius: 50%;
+}
+
+.timeline {
+  width: 60%;
+  border: 1px solid lightgrey;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+}
+
+.timeline_title {
+  font-size: 1.5vw;
+  margin-bottom: 0;
+}
+
+.timeline_date {
+  font-size: 1vw;
+  font-weight: 100;
+  margin:5px 0 0 0;
+}
+
+.timeline_info {
+  margin-top: 10px;
+}
+
+/*Technical*/
+
+.technical {
+  margin-top: 8vw;
+}
+
+.list_left {
+  float: left;
+}
+
+.list_right {
+  float: right;
+}
+
+.list_title {
+  text-decoration: underline;
+  font-size: 1.5vw;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*Projects*/
+.projects {
+  margin-top: 9vw;
+}
+
+.projects_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_container1 {
+  background:url("Projects_Drake.png");
+}
+
+.project_container2 {
+  background:url("Projects_Lyrics.png");
+}
+
+.project_container3 {
+  background:url("Projects_GalvanizeEats.png")
+}
+
+.project_container1,
+.project_container3 {
+  background-size: contain;
+  width:300px;
+  height:300px;
+  margin: 0 20px 0 20px;
+}
+
+.transparent_div1,
+.transparent_div3 {
+  background-color:rgba(72,74,71,0.3);
+  width:100%;
+  height:100%;
+}
+
+.transparent_div1:hover,
+.transparent_div3:hover {
+  background-color:rgba(72,74,71,0.95);
+}
+
+.project_content1,
+.project_content3 {
+  z-index: 1;
+  color: #E88873;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.project_content1 span,
+.project_content3 span {
+  visibility: hidden;
+}
+
+.project_content1:hover span,
+.project_content3:hover span {
+  visibility: visible;
+}
+
+.project_content1 p,
+.project_content3 p {
+  padding-top: 20px;
+}
+
+.project_container2 {
+  background-size: contain;
+  width:300px;
+  height:300px;
+  margin: 0 20px 0 20px;
+}
+
+.transparent_div2 {
+  background-color:rgba(232,136,115,0.3);
+  width:100%;
+  height:100%;
+}
+
+.transparent_div2:hover {
+  background-color: rgba(232,136,115,0.95);
+}
+
+.project_content2 {
+  z-index: 1;
+  color: #5C6D70;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.project_content2 span {
+  visibility: hidden;
+}
+
+.project_content2:hover span {
+  visibility: visible;
+}
+
+.project_content2 p {
+  padding-top: 20px;
+}
+
+.project_header {
+  font-weight: bolder;
+}
+
+.technologies {
+  font-style: italic;
+}
+
+.technologies1 {
+  color: #DBB0A4;
+}
+
+.technologies2 {
+  color: #484A47;
+}
+
+.project_desc {
+  padding: 0 10px 0 10px;
+  margin-top: 0;
+}
+
+.project_links1 a {
+  color: #DBB0A4;
+  padding: 0 10px 0 10px;
+  font-size: 1.5vw;
+}
+
+.project_links1 a:first-child {
+  padding-left: 30px;
+}
+
+.project_links2 a {
+  color: #484A47;
+  padding: 0 10px 0 10px;
+  font-size: 1.5vw;
+}
+
+.project_links2 a:first-child {
+  padding-left: 30px;
+}
+
+/*Contact*/
+.contact {
+  margin: 8vw 0 4vw 0;
+}
+
+.contact_icons a {
+  color: #E88873;
+  font-size: 4vw;
+  padding-left: 20px;
+}
+
+.contact_icons a:hover {
+  color: #5C6D70;
+}
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #484A47;
+  font-size: 3vmin;
+  padding-bottom: 5px;
+}
+
+.footer a:first-child {
+  color: #A37774;
+  font-size: 4vmin;
+}
+
+.footer a:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer a:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.footer a:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+}
+
+.fa-envelope-o,
+.fa-linkedin-square,
+.fa-github {
+  margin-right: 2vw;
+}
