@@ -357,6 +357,10 @@ li {
   margin-top: 0;
 }
 
+.project_links1{
+  padding-bottom: 60px;
+}
+
 .project_links1 a {
   color: #DBB0A4;
   padding: 0 10px 0 10px;
@@ -365,6 +369,10 @@ li {
 
 .project_links1 a:first-child {
   padding-left: 30px;
+}
+
+.project_links2{
+  padding-bottom: 40px;
 }
 
 .project_links2 a {
